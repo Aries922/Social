@@ -160,7 +160,6 @@ CLOUDINARY_STORAGE={
     'API_SECRET':'SPj6mxPqcHvyjX-Zsv9vPGb86TI'
 }
 
-
-# MEDIA_ROOT =  os.path.join(BASE_DIR, 'static/media')
+MEDIA_ROOT =  os.path.join(BASE_DIR, 'static/media')
 
 MEDIA_URL = '/amit/'
