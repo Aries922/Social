@@ -151,7 +151,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS =[
     os.path.join(BASE_DIR,'static')
 ]
-STATIC_ROOT= os.path.join('asset')
+# STATIC_ROOT= os.path.join('asset')
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 CLOUDINARY_STORAGE={
@@ -160,6 +160,6 @@ CLOUDINARY_STORAGE={
     'API_SECRET':'SPj6mxPqcHvyjX-Zsv9vPGb86TI'
 }
 
-MEDIA_ROOT =  os.path.join(BASE_DIR, 'static/media')
+#MEDIA_ROOT =  os.path.join(BASE_DIR, 'static/media')
 
 MEDIA_URL = '/amit/'
